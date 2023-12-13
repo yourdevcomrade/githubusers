@@ -25,7 +25,7 @@ const GithubProvider = ({ children }) => {
       // setup user
       setGithubUser(data);
       const { followers_url } = data;
-      const { data: followData } = await axios(`$(followers_url)?per_page=100`);
+      const { data: followData } = await axios(`${followers_url}?per_page=100`);
       setFollowers(followData);
     } else {
       //display error
