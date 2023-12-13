@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/card.css";
-import { useGlobalContext } from "../hooks/useGlobalContext";
+import { useGlobalContext } from "../hooks/UseGlobalContext";
 import { MdBusiness, MdLocationOn, MdLink } from "react-icons/md";
 
 const Card = () => {

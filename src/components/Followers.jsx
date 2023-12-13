@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/followers.css";
-import { useGlobalContext } from "../hooks/useGlobalContext";
+import { useGlobalContext } from "../hooks/UseGlobalContext";
 
 const Followers = () => {
   const { followers } = useGlobalContext();
