@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/search.css";
 import { MdSearch } from "react-icons/md";
-import { useGlobalContext } from "../hooks/UseGlobalContext";
+import { useGlobalContext } from "../hooks/useGlobalContext";
 
 const Search = () => {
   const { error, requests, isLoading, searchUser } = useGlobalContext();

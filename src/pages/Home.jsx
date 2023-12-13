@@ -1,7 +1,7 @@
 import React from "react";
 import { Info, Search, User } from "../components/";
 import Loading from "../components/Loading";
-import { useGlobalContext } from "../hooks/UseGlobalContext";
+import { useGlobalContext } from "../hooks/useGlobalContext";
 
 const Home = () => {
   const { isLoading } = useGlobalContext();
